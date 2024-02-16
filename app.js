@@ -13,11 +13,22 @@
 
     function encriptar() {
       cambiarImagen();
-      document.getElementById("imagen1").style.display = "none";
+      //document.getElementById("imagen1").style.display = "none";
       // Aquí va la lógica para encriptar el texto
-      let texto = document.getElementById('inputText').value;
+      let textoOriginal = document.getElementById('inputText').value;
+      console.log('Texto encriptado:', textoOriginal);
+      console.log('Texto encriptado:', textoOriginal.length);
+      let textoEncriptado = '';
       // Lógica de encriptado...
-      console.log('Texto encriptado:', texto);
+      if (textoOriginal.length > 0) {
+        for (let index = 0; index < textoOriginal.length ; index++) {
+          const element = textoOriginal[index];
+          console.log('textoOriginal= ', element);
+        }
+      }else{
+        console.warn('no se introdujo texto');
+      } 
+      console.log('Texto encriptado:', textoOriginal);
     }
 
     function desencriptar() {
