@@ -1,3 +1,109 @@
-body {
+* {
   font-family: 'Montserrat', sans-serif;
+  background-color: #F3F5FC;
+}
+
+#div-respuesta {
+  background-color: #F3F5FC;
+  border-radius: 5px;
+}
+
+.btn-encript { 
+  color: #ffffff; 
+  background-color: #0A3871;
+  border-radius: 5px;
+  padding: 6px 12px;
+  border: none; /* Elimina el borde */
+  box-shadow: none; /* Elimina sombra */
+} 
+ 
+.btn-encript:hover, 
+.btn-encript:focus, 
+.btn-encript:active, 
+.btn-encript.active, 
+.open .dropdown-toggle.btn-encript { 
+  color: #ffffff; 
+  background-color: #49247A;
+  border: none; /* Elimina el borde */
+} 
+ 
+.btn-encript:active, 
+.btn-encript.active, 
+.open .dropdown-toggle.btn-encript { 
+  background-image: none; 
+  border: none; /* Elimina el borde */
+} 
+ 
+.btn-encript.disabled, 
+.btn-encript[disabled], 
+fieldset[disabled] .btn-encript, 
+.btn-encript.disabled:hover, 
+.btn-encript[disabled]:hover, 
+fieldset[disabled] .btn-encript:hover, 
+.btn-encript.disabled:focus, 
+.btn-encript[disabled]:focus, 
+fieldset[disabled] .btn-encript:focus, 
+.btn-encript.disabled:active, 
+.btn-encript[disabled]:active, 
+fieldset[disabled] .btn-encript:active, 
+.btn-encript.disabled.active, 
+.btn-encript[disabled].active, 
+fieldset[disabled] .btn-encript.active { 
+  background-color: #ffffff; 
+  border: none; /* Elimina el borde */
+} 
+ 
+.btn-encript .badge { 
+  color: #ffffff; 
+  background-color: #ffffff; 
+  border: none; /* Elimina el borde */
+}
+
+
+.btn-desencript { 
+  color: #0A3871; 
+  background-color: #F3F5FC;
+  border-radius: 5px;
+  padding: 6px 12px;
+  border: 1px solid #0A3871;
+} 
+ 
+.btn-encript:hover, 
+.btn-encript:focus, 
+.btn-encript:active, 
+.btn-encript.active, 
+.open .dropdown-toggle.btn-encript { 
+  color: #0A3871; 
+  background-color: #49247A;
+} 
+ 
+.btn-encript:active, 
+.btn-encript.active, 
+.open .dropdown-toggle.btn-encript { 
+  background-image: none; 
+} 
+ 
+.btn-encript.disabled, 
+.btn-encript[disabled], 
+fieldset[disabled] .btn-encript, 
+.btn-encript.disabled:hover, 
+.btn-encript[disabled]:hover, 
+fieldset[disabled] .btn-encript:hover, 
+.btn-encript.disabled:focus, 
+.btn-encript[disabled]:focus, 
+fieldset[disabled] .btn-encript:focus, 
+.btn-encript.disabled:active, 
+.btn-encript[disabled]:active, 
+fieldset[disabled] .btn-encript:active, 
+.btn-encript.disabled.active, 
+.btn-encript[disabled].active, 
+fieldset[disabled] .btn-encript.active { 
+  background-color: #0A3871; 
+  border: none; /* Elimina el borde */
+} 
+ 
+.btn-encript .badge { 
+  color: #0A3871; 
+  background-color: #ffffff; 
+  border: none; /* Elimina el borde */
 }
