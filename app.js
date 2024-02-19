@@ -1,3 +1,16 @@
+//para solo aceptar minusculas sin caracteres especiales
+function validando() {
+  document.getElementById("inputText").addEventListener('input', function() {
+    var textoOriginal = this.value;
+    var textoSinAcentosCaracteresEspeciales = textoOriginal.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    // Eliminar caracteres especiales del texto
+    var textoSinAcentosCaracteresEspeciales = textoSinAcentosCaracteresEspeciales.replace(/[^\w\s]/gi, '');
+    //pasandolo a minusculas
+    var textoEnMinusculas = textoSinAcentosCaracteresEspeciales.toLowerCase();
+    this.value = textoEnMinusculas;
+  });
+}
+
 //En caso de que la caja de entrada este vacia
 function errorTextoVacio() {
   var img1 = document.getElementById('imagen1');
