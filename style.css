@@ -3,9 +3,36 @@
   background-color: #F3F5FC;
 }
 
+#titulo-pagina{
+  margin-top: 40px;
+  font-weight: bolder;
+  font-size: 100%;
+}
+
 #div-respuesta {
   background-color: #F3F5FC;
-  border-radius: 5px;
+  border-radius: 7px;
+}
+
+#contenedor-respuesta{
+  display: none;
+  padding: 4px;
+  border: solid 1px;
+  border-radius: 7px;
+}
+
+#div-copiar{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.f-resp{
+  background-color: #ffffff;
+}
+
+.outputText{
+  width: 90%;
+  height: 260px;
 }
 
 .btn-encript { 
