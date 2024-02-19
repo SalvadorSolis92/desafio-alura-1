@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="row justify-content-center">
-    <h1>Encriptador de Texto</h1>
+    <h1 id="titulo-pagina">ENCRIPTADOR DE TEXTO</h1>
   </div>
   <div class="row">
     <div class="col-md-6 m-2">
@@ -22,12 +22,20 @@
         <button type="button" class="btn-desencript" onclick="desencriptar()">Desencriptar</button>
       </div>
     </div>
-    <div class="col-md-5">
-      <div class="mb-3">
-        <img id="imagen1" src="1.png">
+
+    <!-- Respuestas de interaccion -->
+    <div class="col-md-5 m-2">
+      <div class="f-resp" id="contenedor-respuesta">
+        <p class="m-2 outputText f-resp" id="outputText"></p>
+        <div class="f-resp" id="div-copiar">
+          <button type="button" class="btn-desencript" onclick="copiar()">Copiar</button>
+        </div>
       </div>
       <div class="mb-3">
-        <img id="imagen2" src="2.png" style="display: none;">
+        <img id="imagen1" src="1.png" style="display: none;">
+      </div>
+      <div class="mb-3">
+        <img id="imagen2" src="2.png">
       </div>
     </div>
   </div>
